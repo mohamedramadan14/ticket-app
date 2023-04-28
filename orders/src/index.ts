@@ -7,6 +7,8 @@ import { PaymentCreatedSubscriber } from './events/subscribers/payment-created-s
 import { ExpirationCompleteSubscriber } from './events/subscribers/expiration-complete-subscriber';
 
 const start = async () => {
+  console.log('Starting Orders....');
+
   if (!process.env.JWT_KEY) {
     throw new Error('JWT Sign Key must be defined');
   }
