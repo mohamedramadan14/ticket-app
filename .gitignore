@@ -1,0 +1,4 @@
+node_modules
+.vscode
+check-yaml.ts
+common
