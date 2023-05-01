@@ -3,3 +3,8 @@ node_modules
 check-yaml.ts
 common
 nats-test
+auth/coverage
+client/coverage
+orders/coverage
+payments/coverage
+tickets/coverage
