@@ -21,6 +21,7 @@
 - orders: responsible for creating and cancelling orders related to tickets
 - expiration : responsible for cancelling orders if no payment submitted for specific order in 10 minutes
 - payments: responsible for handling payment for orders that already valid for payments
+- common/shared: not a service but code that every service need and accessible as npm package: **@shatatickets/shared**
 
 ## Tech Stack
 
